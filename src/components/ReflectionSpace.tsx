@@ -12,7 +12,7 @@ const ReflectionSpace: React.FC = () => {
 
         <div className="flex flex-col items-center">
           <a
-            href="mailto:contact@example.com"
+            href="mailto:Aprilnorris@me.com"
             className="px-12 py-6 bg-[#262626]/60 rounded-full text-[#f5f5f5] hover:bg-[#f5f5f5] hover:text-[#262626] transition-colors duration-300 text-xl xl:text-2xl font-serif min-w-[280px] text-center border border-[#262626]"
           >
             Send a message
