@@ -5,7 +5,7 @@ const Reflections: React.FC = () => {
     <>
       <div className="mt-24 md:mt-48">
         <h2 className="text-5xl xl:text-[70px] font-serif italic mb-12 xl:mb-24 text-gray-800">Gentle Reflections for Grieving Hearts</h2>
-        
+
         <div className="max-w-[86rem] mx-auto">
           <p className="text-gray-800 font-roboto text-xl xl:text-3xl/[1.5] font-light leading-relaxed mb-16">
             To support you as you navigate this journey, we offer reflections inspired by Taoist wisdom. These concepts invite you to sit with your feelings and explore them with gentle curiosity:
@@ -15,8 +15,8 @@ const Reflections: React.FC = () => {
             {/* First Reflection */}
             <div className="flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-16">
               <div className="flex-shrink-0 w-24 h-24 lg:w-32 lg:h-32 mx-auto lg:mx-0">
-                <img 
-                  src="/src/assets/images/bush1.png" 
+                <img
+                  src="https://ik.imagekit.io/soulgenesis/Persephone/bush1.png"
                   alt="Decorative bush illustration"
                   className="w-full h-full object-contain"
                 />
@@ -32,8 +32,8 @@ const Reflections: React.FC = () => {
             {/* Second Reflection */}
             <div className="flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-16">
               <div className="flex-shrink-0 w-24 h-24 lg:w-32 lg:h-32 mx-auto lg:mx-0">
-                <img 
-                  src="/src/assets/images/bush2.png" 
+                <img
+                  src="https://ik.imagekit.io/soulgenesis/Persephone/bush2.png"
                   alt="Decorative bush illustration"
                   className="w-full h-full object-contain"
                 />
@@ -49,8 +49,8 @@ const Reflections: React.FC = () => {
             {/* Third Reflection */}
             <div className="flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-16">
               <div className="flex-shrink-0 w-24 h-24 lg:w-32 lg:h-32 mx-auto lg:mx-0">
-                <img 
-                  src="/src/assets/images/bush1.png" 
+                <img
+                  src="https://ik.imagekit.io/soulgenesis/Persephone/bush1.png"
                   alt="Decorative bush illustration"
                   className="w-full h-full object-contain transform scale-x-[-1]"
                 />

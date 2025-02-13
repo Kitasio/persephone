@@ -24,8 +24,8 @@ const Header: React.FC = () => {
           <div className="grid grid-cols-12 grid-rows-4 items-end gap-4 max-w-10xl mx-auto">
             {/* Center Illustration - Full width on mobile */}
             <div className="col-span-12 md:col-span-4 md:col-start-5 row-span-4 row-start-1 flex justify-center order-first">
-              <img 
-                src="/src/assets/images/1.png"
+              <img
+                src="https://ik.imagekit.io/soulgenesis/Persephone/1.png"
                 alt="Persephones"
                 className="w-full max-w-[45rem] h-auto md:w-[45rem] md:h-[45rem] object-contain"
               />
@@ -33,8 +33,8 @@ const Header: React.FC = () => {
 
             {/* Far Left Bush - Hidden on mobile */}
             <div className="hidden md:flex col-span-2 row-span-3 row-start-2 justify-end items-end">
-              <img 
-                src="/src/assets/images/bush2.png" 
+              <img
+                src="https://ik.imagekit.io/soulgenesis/Persephone/bush2.png"
                 alt="Decorative bush illustration"
                 className="w-80 h-auto object-contain scale-x-[-1]"
               />
@@ -42,8 +42,8 @@ const Header: React.FC = () => {
 
             {/* Left Bush - Hidden on mobile */}
             <div className="hidden md:flex col-span-2 row-start-4 justify-end">
-              <img 
-                src="/src/assets/images/bush1.png" 
+              <img
+                src="https://ik.imagekit.io/soulgenesis/Persephone/bush1.png"
                 alt="Decorative bush illustration"
                 className="w-40 h-48 object-contain scale-x-[-1]"
               />
@@ -51,8 +51,8 @@ const Header: React.FC = () => {
 
             {/* Right Bush - Hidden on mobile */}
             <div className="hidden md:flex col-span-2 row-start-4 justify-start">
-              <img 
-                src="/src/assets/images/bush1.png" 
+              <img
+                src="https://ik.imagekit.io/soulgenesis/Persephone/bush1.png"
                 alt="Decorative bush illustration"
                 className="w-40 h-48 object-contain"
               />
@@ -60,8 +60,8 @@ const Header: React.FC = () => {
 
             {/* Far Right Bush - Hidden on mobile */}
             <div className="hidden md:flex col-span-2 row-span-3 row-start-2 justify-start items-end">
-              <img 
-                src="/src/assets/images/bush2.png" 
+              <img
+                src="https://ik.imagekit.io/soulgenesis/Persephone/bush2.png"
                 alt="Decorative bush illustration"
                 className="w-80 h-auto object-contain"
               />

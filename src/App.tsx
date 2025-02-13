@@ -12,10 +12,10 @@ function App() {
   return (
     <div className="relative">
       {/* Fixed background */}
-      <div 
+      <div
         className="fixed inset-0 w-full h-full bg-fixed"
         style={{
-          backgroundImage: "url('/src/assets/images/white.webp')",
+          backgroundImage: "url('https://ik.imagekit.io/soulgenesis/Persephone/white.webp')",
           backgroundSize: '100% auto',
           backgroundRepeat: 'repeat-y',
           willChange: 'transform' // Optimize performance
@@ -26,7 +26,7 @@ function App() {
       <div className="relative min-h-screen">
         {/* Header Section */}
         <Header />
-        
+
         {/* Main Content */}
         <main className="relative mt-[10vh] md:mt-[20vh] px-4 sm:px-6 md:px-10 lg:px-20">
           {/* Content Section */}
@@ -35,14 +35,14 @@ function App() {
               <div className="col-span-12 max-w-10xl mx-auto w-full">
                 <Sanctuary />
                 <div className="hidden md:block w-full mt-8">
-                  <img 
-                    src="/src/assets/images/seeds.png" 
+                  <img
+                    src="https://ik.imagekit.io/soulgenesis/Persephone/seeds.png"
                     alt="Seeds illustration"
                     className="w-full h-auto object-contain xl:h-56"
                   />
                 </div>
                 <div className="mt-[20vh]">
-                  <Story 
+                  <Story
                     expandedContent={`In ancient times, Persephone was the beloved daughter of Demeter, goddess of the harvest and life-giving earth. With her mother, Persephone wandered through sunlit meadows, her laughter filling the air as she ran among wildflowers. Her presence was light itself, vibrant and joyful. Wherever she walked, flowers opened to the sun, trees burst into bloom, and the earth was rich with abundance.
 
 One day, while picking a bouquet of spring's first flowers, the earth trembled, and a crack appeared beneath Persephone's feet. Out from this shadowed chasm came Hades, lord of the underworld, who had long admired her beauty and spirit. In a heartbeat, he took her hand and pulled her into the depths below, leaving behind only the echo of her last cry.
