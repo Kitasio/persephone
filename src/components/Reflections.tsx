@@ -66,16 +66,11 @@ const Reflections: React.FC = () => {
         </div>
       </div>
 
-      {/* Tao Te Ching Quote */}
       <div className="mt-32 md:mt-72 px-4 sm:px-6 md:px-8 mb-32 md:mb-72">
         <div className="max-w-[1071px] mx-auto min-h-[200px] sm:min-h-[250px] md:min-h-[300px] lg:min-h-[342px] border border-[#737373] rounded-[40px] sm:rounded-[50px] md:rounded-[60px] lg:rounded-[70px] flex items-center justify-center p-4 sm:p-6 md:p-8 lg:p-12 bg-[#e5e5e5]/50">
-          <div className="text-center">
-            <p className="whitespace-pre-line font-serif text-[28px] sm:text-[24px] md:text-[30px] lg:text-[36px] text-neutral-800 leading-[1.4] text-center max-w-4xl">
-              {`"Yield and overcome; bend and be straight."
-              
-              Tao Te Ching`}
-            </p>
-          </div>
+          <p className="font-serif text-[28px] sm:text-[24px] md:text-[30px] lg:text-[36px] text-neutral-800 leading-[1.4] text-center max-w-4xl">
+            There is no right or wrong way to grieve. You have permission to feel it all, to move slowly, or not at all. You're invited to explore the textures of your experience in whatever way feels true to you.
+          </p>
         </div>
       </div>
     </>
