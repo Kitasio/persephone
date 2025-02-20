@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply bg-black text-gray-100;
+    @apply bg-[#fafafa] text-gray-100;
     overflow-x: hidden; /* Prevent horizontal scroll */
   }
 }

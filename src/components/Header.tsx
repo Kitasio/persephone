@@ -6,14 +6,10 @@ const Header: React.FC = () => {
       {/* Content Container */}
       <div className="w-full">
         {/* Title Container */}
-        <div className="mb-12 md:mb-4">
+        <div className="mb-12 md:mb-4 w-full px-4">
           {/* Title */}
-          <h1 className="text-center w-full text-5xl md:text-6xl lg:text-[5.7vw] font-serif">
-            <span className="inline-block transform-gpu text-gray-800">
-              welcome to
-            </span>
-            <span> </span>
-            <span className="inline-block transform-gpu italic text-gray-800">
+          <h1 className="text-center w-full text-6xl sm:text-7xl md:text-8xl lg:text-[8vw] xl:text-[120px] font-serif">
+            <span className="inline-block transform-gpu italic text-neutral-900 w-full">
               Persephone's Playground
             </span>
           </h1>
