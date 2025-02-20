@@ -31,24 +31,22 @@ Let's see the promise of new life.`
 
   return (
     <div className="relative">
-      <h2 className="text-5xl xl:text-[70px] font-serif italic text-left md:text-right mb-12 xl:mb-24 text-gray-800">{title}</h2>
-      <div className="bg-[#404040]/80 p-12 xl:p-16 rounded-[70px] backdrop-blur-sm border border-gray-300/10">
+      <h2 className="text-5xl xl:text-[70px] font-serif italic text-left md:text-right mb-12 xl:mb-24 text-neutral-800">{title}</h2>
+      <div className="bg-[#404040]/80 p-12 xl:p-16 rounded-[70px] backdrop-blur-sm border border-neutral-300/10">
         <div className="max-w-[86rem] mx-auto">
-          <p className={`font-roboto text-xl xl:text-3xl/[1.5] font-light leading-relaxed whitespace-pre-line transition-colors duration-700 ease-in-out ${
-            isExpanded ? 'text-white' : 'text-gray-300'
-          }`}>
+          <p className={`font-roboto text-xl xl:text-3xl/[1.5] font-light leading-relaxed whitespace-pre-line transition-colors duration-700 ease-in-out ${isExpanded ? 'text-white' : 'text-neutral-300'
+            }`}>
             {isExpanded && expandedContent ? expandedContent : content}
           </p>
           {expandedContent && (
             <button
               onClick={() => setIsExpanded(!isExpanded)}
-              className="mt-12 flex items-center gap-3 mx-auto text-white hover:text-gray-200 transition-colors group"
+              className="mt-12 flex items-center gap-3 mx-auto text-white hover:text-neutral-200 transition-colors group"
             >
               <span className="font-serif text-2xl xl:text-3xl">{isExpanded ? "READ LESS" : "READ MORE"}</span>
-              <ArrowDown 
-                className={`w-6 h-6 xl:w-8 xl:h-8 transition-transform duration-700 ease-in-out group-hover:translate-y-1 ${
-                  isExpanded ? "rotate-180" : ""
-                }`}
+              <ArrowDown
+                className={`w-6 h-6 xl:w-8 xl:h-8 transition-transform duration-700 ease-in-out group-hover:translate-y-1 ${isExpanded ? "rotate-180" : ""
+                  }`}
               />
             </button>
           )}
