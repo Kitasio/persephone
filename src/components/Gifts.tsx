@@ -79,15 +79,6 @@ const Gifts: React.FC = () => {
           </div>
 
           {/* Fourth Gift */}
-          <div className="px-4 sm:px-6 md:px-8">
-            <div className="max-w-[1071px] mx-auto min-h-[200px] sm:min-h-[250px] md:min-h-[300px] lg:min-h-[342px] border border-[#737373] rounded-[40px] sm:rounded-[50px] md:rounded-[60px] lg:rounded-[70px] flex items-center justify-center p-4 sm:p-6 md:p-8 lg:p-12 bg-[#e5e5e5]/50">
-              <p className="font-serif text-[28px] sm:text-[24px] md:text-[30px] lg:text-[36px] text-neutral-800 leading-[1.4] text-center max-w-4xl">
-                There is no right or wrong way to grieve. Here, you have permission to feel it all, to move slowly, or not at all. You're invited to explore the textures of your experience in whatever way feels true to you.
-              </p>
-            </div>
-          </div>
-
-          {/* Fifth Gift */}
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
             <div className="lg:max-w-[60%]">
               <h3 className="text-4xl md:text-2xl xl:text-4xl font-serif mb-6 text-neutral-800">4. A Ritual Offering: MoodinaBox.com</h3>
