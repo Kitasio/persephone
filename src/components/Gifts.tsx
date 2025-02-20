@@ -79,9 +79,9 @@ const Gifts: React.FC = () => {
           </div>
 
           {/* Fourth Gift */}
-          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
+          <div className="flex flex-col lg:flex-row-reverse lg:items-center lg:justify-between gap-8">
             <div className="lg:max-w-[60%]">
-              <h3 className="text-4xl md:text-2xl xl:text-4xl font-serif mb-6 text-neutral-800">4. A Ritual Offering: MoodinaBox.com</h3>
+              <h3 className="text-4xl md:text-2xl xl:text-4xl font-serif mb-6 text-neutral-800 text-left lg:text-right">4. A Ritual Offering: MoodinaBox.com</h3>
               <blockquote className="text-xl xl:text-2xl italic text-neutral-700 mb-6">
                 "Rituals provide a tangible way to process emotions, helping individuals regain a sense of control."
               </blockquote>
@@ -91,7 +91,7 @@ const Gifts: React.FC = () => {
                 MoodinaBox.com was designed to guide you toward moments of peace, grounding, and mood transformation to help you find a bit of light, even in the smallest ways.`}
               </p>
             </div>
-            <button className="px-12 py-6 bg-[#262626]/60 rounded-full text-[#f5f5f5] hover:bg-[#f5f5f5] hover:text-[#262626] transition-colors duration-300 text-xl xl:text-2xl font-serif min-w-[280px] border border-[#262626]">
+            <button className="px-12 py-6 bg-[#262626]/60 rounded-full text-[#f5f5f5] hover:bg-[#f5f5f5] hover:text-[#262626] transition-colors duration-300 text-xl xl:text-2xl font-serif min-w-[280px] text-center mx-auto lg:mx-0 border border-[#262626]">
               VISIT MOODINABOX
             </button>
           </div>
