@@ -29,7 +29,7 @@ const GentleInvitation: React.FC = () => {
           </div>
         </div>
 
-        <div className="relative -mt-20 lg:-mt-44 xl:-mt-96 scale-125">
+        <div className="relative -mt-40 sm:-mt-44 lg:-mt-80 xl:-mt-96 2xl:-mt-[30rem] scale-125">
           <img className="" alt="flowers" src="https://ik.imagekit.io/soulgenesis/Persephone/flowers_bg_smaller.webp?updatedAt=1747403792002" />
           <p className="-mb-6 sm:-mb-16 py-16 px-10 text-sm sm:text-base bg-white w-full whitespace-pre-line italic text-neutral-700 text-center">
             {`This page is dedicated to all the Persephones I've been blessed to know, 
