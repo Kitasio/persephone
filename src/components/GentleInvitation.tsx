@@ -17,7 +17,7 @@ const GentleInvitation: React.FC = () => {
             May you find small moments of comfort here, and may you carry them with you as you walk through this time.
           </p>
 
-          <div className="flex justify-center mt-12">
+          <div className="relative z-50 flex justify-center mt-12">
             <a
               href="https://moodinabox.com"
               target="_blank"
@@ -29,18 +29,16 @@ const GentleInvitation: React.FC = () => {
           </div>
         </div>
 
-        <div className="relative mt-20">
-          <img className="absolute scale-125" alt="flowers" src="https://ik.imagekit.io/soulgenesis/Persephone/flowers?updatedAt=1747322935888" />
-        </div>
-
-        <div className="mt-[50vh] sm:mt-[60vh] lg:mt-[80vh] xl:mt-[100vh] 2xl:mt-[120vh]">
-          <p className="whitespace-pre-line text-xl xl:text-2xl italic text-neutral-700 mb-6 text-center">
+        <div className="relative -mt-20 lg:-mt-44 xl:-mt-96 scale-125">
+          <img className="" alt="flowers" src="https://ik.imagekit.io/soulgenesis/Persephone/flowers_bg_smaller.webp?updatedAt=1747403792002" />
+          <p className="-mb-6 sm:-mb-16 py-16 px-10 text-sm sm:text-base bg-white w-full whitespace-pre-line italic text-neutral-700 text-center">
             {`This page is dedicated to all the Persephones I've been blessed to know, 
-            as well as the men and women who have supported them 
-            as they climbed back from the depths.`}
+              as well as the men and women who have supported them 
+              as they climbed back from the depths.`}
           </p>
         </div>
       </div>
+
     </div>
   );
 };
